@@ -117,8 +117,8 @@ export default async function decorate(block) {
   block.textContent = '';
   const nav = document.createElement('nav');
   nav.id = 'nav';
-  
-  if(fragment) {
+
+  if (fragment) {
     while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
   }
 
