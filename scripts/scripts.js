@@ -1,4 +1,5 @@
 import {
+  sampleRUM,
   buildBlock,
   loadHeader,
   loadFooter,
